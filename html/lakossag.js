@@ -12,8 +12,8 @@ var scaleY_020301 = d3.scaleLinear()
     .range([h_020301, 0]);
 
 var color_020301 = d3.scaleOrdinal()
-    .range(["#385988", "#43B02A" , "#FF671F", "#A4343A", "#00AFD7", "#C4D600"]);
-    //.range(["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#980043", "#DD1C77", "#DF65B0", "#C994C7","#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E"]);
+    //.range(["#385988", "#43B02A" , "#FF671F", "#A4343A", "#00AFD7", "#C4D600"]);
+    .range(["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#980043", "#DD1C77", "#DF65B0", "#C994C7","#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E"]);
 
 var xAxis_020301 = d3.axisBottom()
     .scale(scaleX_020301)
